@@ -1,10 +1,10 @@
 <h1>Active Directory Attack & Defense Lab</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+
 
 <h2>Description</h2>
-Project consists of a virtual Active Directory Lab that I initiated a Brute Force attack using Hydra, as well as monitored logs through Microsoft Sentinel and 
-set up a custom rule to alert me of 10> failed login attempts.
+Project consists of a virtual Active Directory Lab where I initiated a Brute Force attack using Hydra, monitored logs through Microsoft Sentinel as well as 
+developed an alert system to report incidents to help contain and prevent succesful attack entries.
 <br />
 
 
@@ -32,7 +32,7 @@ The chart '4625' represents Hydra rapidly trying new passwords:  <br/>
 <img src="https://i.imgur.com/KJJTH2C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-10> excessive login attempts will be an alert: <br/>
+Excessive login attempts will trigger an alert: <br/>
 <img src="https://i.imgur.com/E4egWvh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -44,13 +44,11 @@ Hydra Attack delivered 440 attempts in 15 minutes :  <br/>
 <img src="https://i.imgur.com/DCHP7LA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Alert of log-on failure attempt and event ID '4625':  <br/>
+<img src="https://i.imgur.com/sJysjGZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 
 <!--
  ```diff
