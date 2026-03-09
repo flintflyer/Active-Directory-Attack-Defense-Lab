@@ -4,7 +4,7 @@
 
 <h2>Description</h2>
 Project consists of a virtual Active Directory Lab where I initiated a Brute Force attack using Hydra, monitored logs through Microsoft Sentinel as well as 
-developed an alert system to report incidents to help contain and prevent succesful attack entries.
+developed an alert system to report the ongoing incidents.
 <br />
 
 
