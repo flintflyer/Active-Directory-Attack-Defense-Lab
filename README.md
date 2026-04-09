@@ -1,4 +1,4 @@
-<h1>Active Directory Attack & Defense Lab</h1>
+<h1>Active Directory Attack Detection & Threat Hunting Lab</h1>
 
 
 
